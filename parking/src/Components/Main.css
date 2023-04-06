@@ -1,0 +1,17 @@
+.Main{
+    height: 100vh;
+    width: 100wh;
+  }
+  .body{
+    margin:0;
+    padding:0
+  }
+  .Nav{
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }

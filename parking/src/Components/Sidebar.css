@@ -1,0 +1,46 @@
+.Sidebar1{
+    height:100%;
+    width:250px;
+    background-color: rgb(1, 11, 22);
+}
+.Logo{
+    height: 150px;
+    width: 170px;
+    margin-left:50px;
+    margin-top:20px;
+}
+.sidebarlist{
+    margin-top: 75px;
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+.sidebarlist .row{
+width: 100%;
+height: 60px;
+list-style-type: none;
+text-decoration: none;
+color: white;
+margin:0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+.sidebarlist .row:hover{
+    cursor: pointer;
+    background-color: rgb(43, 48, 53);
+}
+.row #icon{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+.row #title{
+    flex: 70%;
+}
+.White{
+    color: aliceblue;
+    text-decoration: none;
+}
