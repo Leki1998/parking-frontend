@@ -1,0 +1,53 @@
+.control-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.display-heading {
+    margin: 50px 0;
+}
+
+.floor-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.floors {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.slot-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slot {
+    width: 80%;
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+}
+
+.status {
+    border-radius: 4px;
+    color: white;
+    padding: 2px 16px;
+}
+
+.off {
+    background: red;
+}
+
+.on {
+    background: green;
+}
