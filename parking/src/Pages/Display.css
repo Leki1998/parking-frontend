@@ -1,0 +1,47 @@
+.controls {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-floor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 4;
+}
+
+.slot-control {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.floor {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-border-empty {
+    border: 4px solid yellow;
+    border-radius: 8px;
+}
+.img-border-reserved {
+    border: 4px solid red;
+    border-radius: 8px;
+    padding: 4px;
+}
+
