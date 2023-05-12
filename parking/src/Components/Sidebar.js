@@ -12,13 +12,18 @@ function Sidebar() {
             {Data.map((val,key)=>{
                 return<li key={key} className="row">
                    
-                   <div id='icon'>
-                   <NavLink to={val.link} className="White">{val.icon} </NavLink>
-                   </div>
-                    <div id="title">
-                    <NavLink to={val.link} className="White">{val.title}
+                   {/*<div id='icon'>*/}
+                   {/*<NavLink className="White">{val.icon} </NavLink>*/}
+                   {/*</div>*/}
+                   {/* <div id="title">*/}
+                   {/* <NavLink className="White">{val.title}*/}
+                   {/* </NavLink>*/}
+                   {/* </div>*/}
+
+                    <NavLink to={val.link} className="row White">
+                        <div id='icon'>{val.icon}</div>
+                        <div id="title">{val.title}</div>
                     </NavLink>
-                    </div>
                   
                    </li>
                     })}
