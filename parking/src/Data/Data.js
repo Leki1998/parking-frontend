@@ -24,7 +24,7 @@ export const Data=[
     {
         title:"Sign up",
         icon:<LoginIcon/>,
-        link:"/Login",
+        link:"/Signup",
     }, 
 ]
 

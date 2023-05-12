@@ -14,7 +14,7 @@ function Navpage() {
       <Route path="/" element={ <Control/> } />
       <Route path="/Display" element={ <Display/> } />
       <Route path="/Events" element={ <Events/> } />
-      <Route path="/Signup" element={ <Signup/> } />
+      <Route path="/Signup" element={<Signup/>} />
     </Routes>
     </section>
    </React.Fragment>

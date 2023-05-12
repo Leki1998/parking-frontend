@@ -14,7 +14,7 @@ function Mainpage() {
           <div className='Nav'>
               <Navpage></Navpage>
               {/*<Login></Login>*/}
-              {<Signup></Signup>}
+              {/*{<Signup></Signup>}*/}
           </div>
       </div>
     </React.Fragment>
