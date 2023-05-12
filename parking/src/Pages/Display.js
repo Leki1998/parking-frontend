@@ -1,6 +1,6 @@
 import React from 'react'
 import Reserved from "../Imgs/reserved.png";
-import EmptySpace from "../Imgs/empty-space.jpg";
+import EmptySpace from "../Imgs/empty-space.png";
 import './Display.css'
 
 function Display() {

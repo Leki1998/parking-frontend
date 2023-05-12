@@ -12,28 +12,28 @@ function Control() {
                 <div className="slot-wrapper">
                     <div className="slot">
                         <p>Slot 1</p>
-                        <p className="off status">OFF</p>
-                        <p className="on status">ON</p>
+                        <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                     </div>
                     <div className="slot">
                         <p>Slot 2</p>
-                        <p className="off status">OFF</p>
-                        <p className="on status">ON</p>
+                        <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                     </div>
                     <div className="slot">
                         <p>Slot 3</p>
-                        <p className="off status">OFF</p>
-                        <p className="on status">ON</p>
+                        <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                     </div>
                     <div className="slot">
                         <p>Slot 4</p>
-                        <p className="off status">OFF</p>
-                        <p className="on status">ON</p>
+                        <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                     </div>
                     <div className="slot">
                         <p>Slot 5</p>
-                        <p className="off status">OFF</p>
-                        <p className="on status">ON</p>
+                        <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                     </div>
                 </div>
             </div>
@@ -42,28 +42,28 @@ function Control() {
                   <div className="slot-wrapper">
                       <div className="slot">
                           <p>Slot 1</p>
-                          <p className="off status">OFF</p>
-                          <p className="on status">ON</p>
+                          <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                       </div>
                       <div className="slot">
                           <p>Slot 2</p>
-                          <p className="off status">OFF</p>
-                          <p className="on status">ON</p>
+                          <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                       </div>
                       <div className="slot">
                           <p>Slot 3</p>
-                          <p className="off status">OFF</p>
-                          <p className="on status">ON</p>
+                          <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                       </div>
                       <div className="slot">
                           <p>Slot 4</p>
-                          <p className="off status">OFF</p>
-                          <p className="on status">ON</p>
+                          <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                       </div>
                       <div className="slot">
                           <p>Slot 5</p>
-                          <p className="off status">OFF</p>
-                          <p className="on status">ON</p>
+                          <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                       </div>
                   </div>
               </div>
@@ -72,28 +72,28 @@ function Control() {
                   <div className="slot-wrapper">
                       <div className="slot">
                           <p>Slot 1</p>
-                          <p className="off status">OFF</p>
-                          <p className="on status">ON</p>
+                          <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                       </div>
                       <div className="slot">
                           <p>Slot 2</p>
-                          <p className="off status">OFF</p>
-                          <p className="on status">ON</p>
+                          <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                       </div>
                       <div className="slot">
                           <p>Slot 3</p>
-                          <p className="off status">OFF</p>
-                          <p className="on status">ON</p>
+                          <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                       </div>
                       <div className="slot">
                           <p>Slot 4</p>
-                          <p className="off status">OFF</p>
-                          <p className="on status">ON</p>
+                          <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                       </div>
                       <div className="slot">
                           <p>Slot 5</p>
-                          <p className="off status">OFF</p>
-                          <p className="on status">ON</p>
+                          <button className="off status">OFF</button>
+                          <button className="on status">ON</button>
                       </div>
                   </div>
               </div>

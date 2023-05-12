@@ -18,26 +18,18 @@ function createData(Car_Number,Entery_Time, Exist_Time,Date) {
   return {  Car_Number,Entery_Time, Exist_Time,Date};
 }
 const rows = [
-  createData( 32, 6.0, 24, 4.0),
-  createData( 237, 9.0, 37, 4.3),
-  createData(262, 16.0, 24, 6.0),
-  createData( 305, 3.7, 67, 4.3),
-  createData(356, 16.0, 49, 3.9),
-  createData( 159, 6.0, 24, 4.0),
-  createData(10000, 9.0, 37, 4.3),
-  createData(262, 16.0, 24, 6.0),
-  createData( 305, 3.7, 67, 4.3),
-  createData(356, 16.0, 49, 3.9),
-  createData( 3232323, 6.0, 24, 4.0),
-  createData( 237, 9.0, 37, 4.3),
-  createData(262, 16.0, 24, 6.0),
-  createData( 305, 3.7, 67, 4.3),
-  createData(356, 16.0, 49, 3.9),
-  createData( 159, 6.0, 24, 4.0),
-  createData(10000, 9.0, 37, 4.3),
-  createData(262, 16.0, 24, 6.0),
-  createData( 305, 3.7, 67, 4.3),
-  createData(356, 16.0, 49, 3.9),
+  createData('3:00pm','4/2/2023','2:00pm', 'BP-1-A6000'),
+  createData('3:00pm','4/2/2023', '2:00pm', 'BP-1-A3400'),
+  createData('3:00pm','4/2/2023', '2:00pm', 'BP-1-A3890'),
+  createData( '3:00pm', '4/2/2023', '2:00pm', 'BP-1-A3430'),
+  createData('3:00pm', '4/2/2023', '2:00pm', 'BP-1-A6784'),
+  createData( '3:00pm','4/2/2023', '2:00pm', 'BP-1-A3567'),
+  createData('3:00pm', '4/2/2023', '2:00pm', 'BP-1-A0454'),
+  createData('3:00pm', '4/2/2023', '2:00pm', 'BP-1-A0466'),
+  createData('3:00pm', '4/2/2023','2:00pm', 'BP-1-A03433'),
+  createData('3:00pm', '4/2/2023','2:00pm', 'BP-1-A04544'),
+  createData('3:00pm', '4/2/2023','2:00pm','BP-1-A0000'),
+
 ];
 export default function Events() {
 
@@ -68,6 +60,8 @@ export default function Events() {
             <TableRow>
               <TableCell align='center'><Typography  style={{ fontWeight: 600 }}>Car Number</Typography></TableCell>
               <TableCell align='left'><Typography  style={{ fontWeight: 600 }}>Date</Typography></TableCell>
+              <TableCell align='left'><Typography  style={{ fontWeight: 600 }}>Entry Time</Typography></TableCell>
+              <TableCell align='left'><Typography  style={{ fontWeight: 600 }}>Exit Time</Typography></TableCell>
             </TableRow>
           </TableHead>
           <TableBody>

@@ -32,7 +32,8 @@
 }
 
 .slot {
-    width: 80%;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row !important;
     justify-content: space-around !important;
@@ -41,13 +42,18 @@
 .status {
     border-radius: 4px;
     color: white;
-    padding: 2px 16px;
+    padding: 2px 13px;
 }
 
 .off {
     background: red;
+    height: 40px;
+    box-shadow: none;
 }
 
 .on {
     background: green;
+    height: 40px;
+    box-shadow: none;
+  
 }

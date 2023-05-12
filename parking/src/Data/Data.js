@@ -21,6 +21,11 @@ export const Data=[
         icon:<EventIcon/>,
         link:"/Events",
     },   
+    {
+        title:"Sign up",
+        icon:<LoginIcon/>,
+        link:"/Login",
+    }, 
 ]
 
 

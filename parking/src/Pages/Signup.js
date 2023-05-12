@@ -7,6 +7,7 @@ function Signup() {
     return (
         <React.Fragment>
             <div className="sign-up">
+            
                 <Box className="sign-up-form"
                     component="form"
                     sx={{
@@ -15,6 +16,7 @@ function Signup() {
                     noValidate
                     autoComplete="off"
                 >
+                    <h2 className='topic'>Sign Up</h2>
                     <div className="form-wrapper">
                         <TextField
                             Email
