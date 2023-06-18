@@ -17,8 +17,8 @@ function Control() {
                     </div>
                     <div className="slot">
                         <p>Slot 2</p>
-                        <button className="off status">OFF</button>
-                          <button className="on status">ON</button>
+                        <button onClick={() => localStorage.setItem('2','0')} className="off status">OFF</button>
+                          <button onClick={() => localStorage.setItem('2','1')} className="on status">ON</button>
                     </div>
                     <div className="slot">
                         <p>Slot 3</p>
